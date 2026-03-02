@@ -1,0 +1,237 @@
+﻿node.exe : 2026-03-02T0
+0:12:43.454Z astro:cli 
+--verbose flag 
+enabled! Enabling: 
+DEBUG="astro:*,vite:*"
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (2026-03-02T00   
+ :1...astro:*,vite:    
+*":String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+2026-03-02T00:12:43.455
+Z astro:cli Tip: Set 
+the DEBUG env variable 
+directly for more 
+control. Example: 
+"DEBUG=astro:*,vite:* 
+astro build".
+2026-03-02T00:12:44.146
+Z astro:telemetry 
+[notify] last notified 
+on 1771612650130
+2026-03-02T00:12:45.070
+Z astro:telemetry {
+  context: {
+    isGit: true,
+    
+anonymousProjectId: '49
+4a68ce31cec6adc5ccd543a
+def6902774e32d6bc853d49
+fce15d7e18492e74',
+    packageManager: 
+'npm',
+    
+packageManagerVersion: 
+'11.8.0',
+    anonymousId: '0e8aa
+db9d7218f23731085d5cadf
+85ae0129a47776946685048
+fae5ebfc1bd96',
+    
+anonymousSessionId: 'ee
+98a3a1e7afc1a9e6d077c30
+41a2e81cd98356a54e086a2
+73698f928c98c0dc'
+  },
+  meta: {
+    nodeVersion: 
+'24.13.1',
+    viteVersion: 
+'6.4.1',
+    astroVersion: 
+'5.18.0',
+    systemPlatform: 
+'win32',
+    systemRelease: 
+'10.0.26100',
+    
+systemArchitecture: 
+'x64',
+    cpuCount: 4,
+    cpuModel: 
+'Intel(R) Core(TM) 
+i5-7500 CPU @ 3.40GHz',
+    cpuSpeed: 3408,
+    memoryInMb: 8132,
+    isDocker: false,
+    isTTY: undefined,
+    isWSL: false,
+    isCI: false,
+    ciName: null
+  }
+}
+2026-03-02T00:12:45.070
+Z astro:telemetry [
+  {
+    "eventName": "ASTRO
+_CLI_SESSION_STARTED",
+    "payload": {
+      "cliCommand": 
+"dev",
+      "config": {
+        
+"integrations": [
+          
+"@astrojs/react",
+          
+"@astrojs/tailwind"
+        ],
+        "build": {},
+        "server": true,
+        "image": {},
+        "markdown": {},
+        
+"experimental": {},
+        "legacy": {}
+      }
+    }
+  }
+]
+[31m[1m08:12:45[22m 
+[ERROR] [@astrojs/tailw
+ind][39m An unhandled 
+error occurred while 
+running the [1m"astro:
+config:setup"[22m hook
+2026-03-02T00:12:45.276
+Z astro:telemetry {
+  context: {
+    isGit: true,
+    
+anonymousProjectId: '49
+4a68ce31cec6adc5ccd543a
+def6902774e32d6bc853d49
+fce15d7e18492e74',
+    packageManager: 
+'npm',
+    
+packageManagerVersion: 
+'11.8.0',
+    anonymousId: '0e8aa
+db9d7218f23731085d5cadf
+85ae0129a47776946685048
+fae5ebfc1bd96',
+    
+anonymousSessionId: 'ee
+98a3a1e7afc1a9e6d077c30
+41a2e81cd98356a54e086a2
+73698f928c98c0dc'
+  },
+  meta: {
+    nodeVersion: 
+'24.13.1',
+    viteVersion: 
+'6.4.1',
+    astroVersion: 
+'5.18.0',
+    systemPlatform: 
+'win32',
+    systemRelease: 
+'10.0.26100',
+    
+systemArchitecture: 
+'x64',
+    cpuCount: 4,
+    cpuModel: 
+'Intel(R) Core(TM) 
+i5-7500 CPU @ 3.40GHz',
+    cpuSpeed: 3408,
+    memoryInMb: 8132,
+    isDocker: false,
+    isTTY: undefined,
+    isWSL: false,
+    isCI: false,
+    ciName: null
+  }
+}
+2026-03-02T00:12:45.276
+Z astro:telemetry [
+  {
+    "eventName": 
+"ASTRO_CLI_ERROR",
+    "payload": {
+      "name": "Error",
+      "cliCommand": 
+"dev",
+      "isFatal": true,
+      "anonymousMessage
+Hint": "It looks like 
+you"
+    }
+  }
+]
+It looks like you're 
+trying to use 
+`tailwindcss` directly 
+as a PostCSS plugin. 
+The PostCSS plugin has 
+moved to a separate 
+package, so to 
+continue using 
+Tailwind CSS with 
+PostCSS you'll need to 
+install 
+`@tailwindcss/postcss` 
+and update your 
+PostCSS configuration.
+  [1mLocation:[22m
+    [4mC:\Users\charle
+s\Downloads\Velocity\no
+de_modules\tailwindcss\
+dist\chunk-L5IEUH3R.mjs
+:38:1643[24m
+  [1mStack trace:[22m
+[2m    at so (file:///
+C:/Users/charles/Downlo
+ads/Velocity/node_modul
+es/tailwindcss/dist/chu
+nk-L5IEUH3R.mjs:38:1643
+)
+    at async 
+astro:config:setup (fil
+e:///C:/Users/charles/D
+ownloads/Velocity/node_
+modules/@astrojs/tailwi
+nd/dist/index.js:45:17)
+    at async 
+runHookInternal (file:/
+//C:/Users/charles/Down
+loads/Velocity/node_mod
+ules/astro/dist/integra
+tions/hooks.js:51:5)
+    at async 
+createContainer (file:/
+//C:/Users/charles/Down
+loads/Velocity/node_mod
+ules/astro/dist/core/de
+v/container.js:23:14)
+    at async dev (file:
+///C:/Users/charles/Dow
+nloads/Velocity/node_mo
+dules/astro/dist/core/d
+ev/dev.js:23:19)[22m

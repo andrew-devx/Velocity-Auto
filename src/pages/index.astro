@@ -1,17 +1,27 @@
 ---
-
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar';
+import Hero from '../components/Hero';
+import Features from '../components/Features';
+import Lifestyle from '../components/Lifestyle';
+import HowItWorks from '../components/HowItWorks';
+import About from '../components/About';
+import FAQ from '../components/FAQ';
+import CTA from '../components/CTA';
+import Footer from '../components/Footer';
+import TrustBar from '../components/TrustBar';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title="Velocity Auto Group | The Easiest Way to Buy, Sell, or Rent">
+	<Navbar client:load />
+	<main>
+		<Hero client:visible />
+		<Features client:visible />
+		<Lifestyle client:visible />
+		<HowItWorks client:visible />
+		<About client:visible />
+		<FAQ client:visible />
+		<CTA client:visible />
+	</main>
+	<Footer client:visible />
+</Layout>

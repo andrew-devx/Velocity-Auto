@@ -1,0 +1,58 @@
+﻿
+> velocity-astro@0.0.1 build
+> astro build
+
+[2m06:13:15[22m [34m[content][39m Syncing content
+[2m06:13:15[22m [34m[content][39m Synced content
+[2m06:13:15[22m [34m[types][39m Generated [2m45ms[22m
+[2m06:13:15[22m [34m[build][39m output: [34m"static"[39m
+[2m06:13:15[22m [34m[build][39m mode: [34m"static"[39m
+[2m06:13:15[22m [34m[build][39m directory: [34mC:\Users\charles\Downloads\Velocity\dist\[39m
+[2m06:13:15[22m [34m[build][39m Collecting build info...
+[2m06:13:15[22m [34m[build][39m [32mΓ£ô Completed in 65ms.[39m
+[2m06:13:15[22m [34m[build][39m Building static entrypoints...
+node.exe : 
+[31m[1m06:13:16[22m 
+[ERROR] [vite][39m 
+[31mΓ£ù[39m Build 
+failed in 750ms
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: ([31m[1m06:1   
+ 3:...failed in 750    
+ms:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+[@tailwindcss/vite:gene
+rate:build] Cannot 
+convert undefined or 
+null to object
+file: C:/Users/charles/
+Downloads/Velocity/src/
+styles/global.css
+  [1mStack trace:[22m
+[2m    at B.generate (
+file:///C:/Users/charle
+s/Downloads/Velocity/no
+de_modules/@tailwindcss
+/vite/dist/index.mjs:1:
+5598)
+    at async transform 
+(file:///C:/Users/charl
+es/Downloads/Velocity/n
+ode_modules/rollup/dist
+/es/shared/node-entry.j
+s:21269:16)[22m
